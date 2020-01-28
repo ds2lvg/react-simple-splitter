@@ -1,0 +1,12 @@
+#root{height: 100%;}
+
+/* 가로 모드 CSS */
+.sp_table{display:table;table-layout:fixed;width:100%;height:100%;}
+.sp_h_row{display:table-row;height:100%;}
+.sp_h_cell{position: relative;display:table-cell;vertical-align:top;/*overflow-x: auto;*/}
+.sp_h_bar{position: relative;display:table-cell;width:8px;cursor:ew-resize;border-left: 1px solid rgb(238, 238, 238); border-right: 1px solid rgb(102, 102, 102); box-sizing: border-box; background-color: rgb(192, 192, 192);}
+/* 세로 모드 CSS */
+.sp_v_row{display:table-row;width: 100%;}
+.sp_v_bar{display:table-row;}
+.sp_v_bar_cell{display:table-cell;height: 8px;cursor:n-resize;border-top: 1px solid rgb(238, 238, 238); border-bottom: 1px solid rgb(102, 102, 102); background-color: rgb(192, 192, 192);}
+.sp_v_cell{display:table-cell;vertical-align:top;overflow-x: auto;}
