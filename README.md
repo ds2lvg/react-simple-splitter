@@ -1,26 +1,28 @@
 # react-simple-splitter
+ 
+> simple and bagic splitter for react
+
+[![NPM](https://img.shields.io/npm/v/react-simple-splitter.svg)](https://www.npmjs.com/package/react-simple-splitter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+![img](https://raw.githubusercontent.com/ds2lvg/ds2lvg-react-simple-splitter/master/screenshot.gif?token=AFATWQGSYQIZNL3XR25V3NS6GBN2W)
+
 - It can adjust size in vertical area and horizontal.
   - 가로 분할 혹은 세로 분할해서 각 영역으로 사이즈로 드래그로 조절할 수 있습니다.
 - This library use 'display: table' so IE9 is ok
   - 익스9까지 지원할 수 있도록 display: table을 이용하여서 제작했습니다
 
-> 
-
-[![NPM](https://img.shields.io/npm/v/react-simple-splitter.svg)](https://www.npmjs.com/package/react-simple-splitter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 ## Install
 
 ```bash
-npm install --save react-simple-splitter
+npm i react-simple-splitter
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
 import Splitter from 'react-simple-splitter'
-import 'splitter.css';
 
 const Example = () => {
   const option = {
@@ -60,4 +62,4 @@ const Example = () => {
 
 MIT © [ds2lvg](https://github.com/ds2lvg) 
 
-##### 만든사람: 김종민
+**제작자**: 김종민
