@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-simple-splitter.svg)](https://www.npmjs.com/package/react-simple-splitter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-![img](https://lh5.googleusercontent.com/MV4jr0XzEhDB8unPwzy6dSfrWc_PKi7cHB44LMfK-i-16JHwbJcys_WYEZGXVELnK8FPzTHmVtcKVNjxZAhh=w1920-h888-rw)
+![img](https://k.kakaocdn.net/dn/bpcOeN/btqBBVVSXLE/OnKC8ATpeAJ2JPqo46qDK1/img.gif)
 
 - It can adjust size in vertical area and horizontal.
   - 가로 분할 혹은 세로 분할해서 각 영역으로 사이즈로 드래그로 조절할 수 있습니다.
