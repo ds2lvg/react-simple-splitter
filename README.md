@@ -21,38 +21,50 @@ npm i react-simple-splitter
 
 ```jsx
 import React from 'react'
-
 import Splitter from 'react-simple-splitter'
 
 const Example = () => {
-  const option = {
+  const option1 = {
     mode: 'h',
     minSize: 50,
     oneSize: 100,
   }
+  const option2 = {
+    mode: 'w',
+    minSize: 100,
+    oneSize: 150,
+  }
   return (
-    <Splitter option={option1}>
-      <section className="bg1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Non id, sint quidem rem ratione quaerat in sequi asperiores iure voluptate.
-        Laborum quos quo deserunt ex sequi non consequatur eaque tempore
-      </section>
-      <Second addClass="bg2"/> {/* user's component */}
-    </Splitter>
+    <section className="foo">
+      <Splitter option={option1}>
+        <div>
+          This is a Top Component
+        </div>
+        <div>
+          This is a Bottom Component
+        </div>
+      </Splitter>
+    </section>
+    <section className="foo">
+      <Splitter option={option2}>
+        <LeftComponent /> {/* user's component */}
+        <RightComponent  /> {/* user's component */}
+      </Splitter>
+    </section>
   )
 }
 ```
 
-- SplitterContainer should have only 2 children component
-- create object option and Inject in SplitterContainer component.
+- Splitter Component should have only 2 children component
+- create object option and Inject in Splitter component.
 - option
   - mode: "h" is horizontal. "v" is vertical
   - minSize - it can adjust minimum size
   - oneSize: initial size for first area. It's left area in h mode and It's top area in v mode.
 
 ## 사용법
-- SplitterContainer 내부에 자식 컴포넌트는 2개만 있어야 합니다.
-- option 객체를 생성해서 SplitterContainer component에 대입해서 사용합니다.
+- Splitter 내부에 자식 컴포넌트는 2개만 있어야 합니다.
+- option 객체를 생성해서 Splitter component에 대입해서 사용합니다.
 - option
   - mode: "h" 는 가로모드. "v" 는 세로모드입니다.
   - minSize - 드래그시 줄어들수 있는 최소사이즈 입니다.

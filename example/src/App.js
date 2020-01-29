@@ -5,7 +5,7 @@ import Splitter from 'react-simple-splitter'
 const Second = (props) => {
   return (
     <section className={props.addClass}>
-      Author: jongmin kim<br/>&lt;ds2lvg@gmail.com&gt;
+      Author: jongmin kim
     </section>
   )
 }
